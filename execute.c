@@ -13,7 +13,6 @@ void exec_cmd(char **cmd)
 	pid = fork();
 	if (pid == -1)
 		perror("fork");
-	
 	else if (pid > 0)
 	{
 		waitpid(pid, &status, 0);
