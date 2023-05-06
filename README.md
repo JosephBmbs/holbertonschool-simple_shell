@@ -143,17 +143,15 @@ $
 
 
 ## 🎯  What our file stand for:
-<!--
-* [README.md](https://github.com/HanaOuerghemmi/holbertonschool-simple_shell/blob/main/README.md) :The README file
+
+* [README.md](https://github.com/JosephBmbs/holbertonschool-simple_shell/blob/master/README.md) :The README file
 * [AUTHOR](https://github.com/JosephBmbs/holbertonschool-simple_shell/blob/master/AUTHORS):  This file contains the author of the project
-* [execute.c](https://github.com/HanaOuerghemmi/holbertonschool-simple_shell/blob/main/execute.c) : This file contains the function execute
-* [parse.c](https://github.com/HanaOuerghemmi/holbertonschool-simple_shell/blob/main/parse.c): This file contains the function to handle each argument type like (r, )
-* [split_line.c](https://github.com/HanaOuerghemmi/holbertonschool-simple_shell/blob/main/split_line.c) : this file containe the function split line parse it in array of string
-* [prompt.c](https://github.com/HanaOuerghemmi/holbertonschool-simple_shell/blob/main/prompt.c) : This file contains the prompet
-* [readline.c](https://github.com/HanaOuerghemmi/holbertonschool-simple_shell/blob/main/readline.c) : This file contains te function readlien
-* [shell.h](https://github.com/HanaOuerghemmi/holbertonschool-simple_shell/blob/main/shell.h) : The Header file
-* [signal.c](https://github.com/HanaOuerghemmi/holbertonschool-simple_shell/blob/main/signal.c) :
---->
+* [execute.c](https://github.com/JosephBmbs/holbertonschool-simple_shell/blob/master/execute.c) : This file contains the function execute
+* [split.c](https://github.com/JosephBmbs/holbertonschool-simple_shell/blob/master/split.c) : this file containe the function split line parse it in array of string
+* [readline.c](https://github.com/JosephBmbs/holbertonschool-simple_shell/blob/master/read_line.c) : This file contains te function readlien
+* [myshell.h](https://github.com/JosephBmbs/holbertonschool-simple_shell/blob/master/myshell.h) : The Header file
+* [signal.c](https://github.com/JosephBmbs/holbertonschool-simple_shell/blob/master/signal.c) :
+
 
 ## Author:
 * [Youssef Saad](https://github.com/HanaOuerghemmi)
