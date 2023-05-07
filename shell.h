@@ -15,7 +15,7 @@ extern char **environ;
 #include <sys/stat.h>
 #include <sys/wait.h>
 #include <stddef.h>
-
+#include <sys/wait.h>
 #include <stddef.h>
 #include <errno.h>
 #include <dirent.h>
