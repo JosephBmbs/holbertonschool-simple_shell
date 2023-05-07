@@ -105,7 +105,17 @@ int fexit(char **av)
 
 	else
 	{
-		status = atoi(av[1]);
+		char *endptr;
+		status = strtol(av[1], &endptr, 10);
+
+		if (*endptr != '\0')
+		{
+			fprintf(stderr, "%s: %s: %s: numeric argument required\n",
+			av[0], av[1], strerror(errno));
+			free_arr(av);
+			return (2);
+		}
+
 		free_arr(av);
 		exit(status);
 	}
